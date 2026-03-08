@@ -1,0 +1,26 @@
+{
+  "llm": {
+    "base_url": "https://api.deepseek.com",
+    "api_key": "sk-9c04e0e8519441c98c9db9a15064d9bc",
+    "model": "deepseek-chat",
+    "temperature": 0.2,
+    "max_tokens": 1024,
+    "timeout": 45
+  },
+  "memory": {
+    "max_history_turns": 8
+  },
+  "planner": {
+    "max_subtasks": 8,
+    "strict_map_only": true
+  },
+  "ros": {
+    "topic_move_base_goal": "/move_base_simple/goal",
+    "topic_move_base_result": "/move_base/result",
+    "frame_id": "map"
+  },
+  "runtime": {
+    "mode": "simulation"
+  }
+}
+

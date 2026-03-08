@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "id": "coffee_machine_01",
+      "name": "咖啡机",
+      "aliases": ["咖啡机台", "coffee machine"],
+      "category": "电器",
+      "room": "茶水间",
+      "position": { "x": 2.1, "y": 5.4, "yaw": 1.57 },
+      "description": "自动咖啡机"
+    },
+    {
+      "id": "cup_shelf_01",
+      "name": "杯子架",
+      "aliases": ["杯子区", "cup shelf"],
+      "category": "家具",
+      "room": "茶水间",
+      "position": { "x": 1.8, "y": 4.9, "yaw": 0.0 },
+      "description": "放置杯子的架子"
+    },
+    {
+      "id": "sofa_area_01",
+      "name": "沙发",
+      "aliases": ["休息区", "sofa"],
+      "category": "家具",
+      "room": "客厅",
+      "position": { "x": -3.2, "y": 1.5, "yaw": -1.2 },
+      "description": "客厅沙发休息区"
+    },
+    {
+      "id": "tv_table_01",
+      "name": "电视柜",
+      "aliases": ["遥控器附近", "tv table"],
+      "category": "家具",
+      "room": "客厅",
+      "position": { "x": -2.4, "y": 2.2, "yaw": 3.14 },
+      "description": "通常放遥控器的位置"
+    },
+    {
+      "id": "home_base_01",
+      "name": "原点",
+      "aliases": ["充电桩", "home base"],
+      "category": "站点",
+      "room": "走廊",
+      "position": { "x": 0.0, "y": 0.0, "yaw": 0.0 },
+      "description": "机器人起始和返回点"
+    }
+  ]
+}
+
